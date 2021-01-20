@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    letter-spacing: .05em;
+}
+
+html {
+    height: 90%;
+}
+
+body {
+    height: 100%;
+}
+
+.titleBar{
+    height: 80px;
+    background-color: rgb(3, 81, 165);
+    color: white;
+    font-size: larger;
+    line-height: 80px;
+    text-align: center;
+}
+
+#userDisplay{
+    text-align: center;
+    width: 100%;
+}
+.functionBar {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+table{
+    display: block;
+    width: 70%;
+    margin: auto;
+    margin-top: 80px;
+    margin-left: 380px;
+
+}
+table td, table th{
+    display: inline-block;
+    width: 200px;
+    height: 28px;
+    margin: auto;
+    text-align: center;
+}
+table td a{
+    width: 50px;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+.append-wrapper{
+    display: none;
+    background-color: #fff;
+    width: 250px;
+    height: 520px;
+    border-radius: 15px;
+    padding: 0 50px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-67%);
+    opacity: 80%;
+}
+
+.append-wrapper .header {
+
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px !important;
+}
+
+.append-wrapper .form-wrapper .input-item {
+    width: 90%;
+    margin-bottom: 20px;
+    border: 0;
+    padding: 10px;
+    border-bottom: 1px solid rgb(128, 125, 125);
+    font-size: 15px;
+    outline: none;
+    opacity:100% !important;
+}
+
+.append-wrapper .form-wrapper .btn {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+    border-radius: 15px;
+    opacity:100% !important;
+}
+.append-wrapper .form-wrapper .btn #confirmButton,#cancelButton{
+    border: none;
+    margin: 10px;
+}
+
+.append-wrapper .form-wrapper #alerting{
+    padding: 10px;
+}

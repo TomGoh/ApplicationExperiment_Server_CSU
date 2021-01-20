@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="OutpatientService:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>OutpatientService</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="OutpatientService-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="OutpatientService:war exploded" />
+    </root>
+  </artifact>
+</component>
